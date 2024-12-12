@@ -1,0 +1,143 @@
+.header{
+height: 55px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background-color: white;
+
+}
+.left-section{
+display: flex;
+align-items: center;
+}
+.humburger-menue{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.middle-section{
+    display: flex;
+    margin-right: 40px;
+    margin-left: 80px;
+    flex: 1;
+    max-width: 480px;
+    align-items: center;
+}
+.search-bar{
+    flex: 1;
+    height: 37px;
+    font-size: 16px;
+    border-width:  1px;
+    border-style: solid ;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px 
+    rgba(0, 0, 0, 0.05);
+    width: 0px;
+    
+}
+.search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 15px;
+    padding-left: 10px;
+
+}
+.search-button{
+    height: 41px;
+    width: 66px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-left: -1px;
+    background-color: rgb(247, 246, 246);;
+}
+.search-icon{
+    height:23px ;
+    margin-top: 3px;
+}
+.voice-button{
+    height: 40px;
+    width: 40px; 
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0;
+    border-color: rgb(247, 246, 246);
+
+}
+.voice-button:hover,
+.search-button,
+.youtube-logo,
+.humburger-menue,
+.upload-botton,
+.apps-buttun,
+.notification-button,
+.accont-pecture,
+.sign-up-button{
+    cursor: pointer;
+}
+.voice-search-icon{
+    height:23px ;
+    margin-top: 3px;
+}
+
+.right-section{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.upload-botton,
+.apps-buttun,
+.notification-button{
+    height: 43px;
+    width: 43px; 
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0;
+    border-color: rgb(247, 246, 246);
+    margin-right: 20px;
+    background-color: white;
+}
+.notification-button{
+    margin-right: 0px;
+}
+.upload-botton{
+    margin-left:20px ;
+}
+.upload-icon,
+.apps-icon,
+.notification-icon{
+    height: 24px;
+}
+.sign-up-button{
+    height: 40px;
+    border-radius: 8px ; 
+    border-width: 0px;
+    background-color: white;
+width: 110px;
+box-shadow: inset 2px 3px 9px 
+    rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+}
+.sign-up-link{
+    color: black;
+background-color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 15px;
+}
+.link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}

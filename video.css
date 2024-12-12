@@ -1,0 +1,55 @@
+
+.thumbnail{
+    width: 100%;
+    border-radius: 13px;
+} 
+
+.video-title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr ;
+}
+.profile-picture{
+    width: 40px;
+    border-radius: 32px ;
+}
+.channel-pecture{
+    display: inline-block;
+    width: 50px; 
+    vertical-align: top;
+} 
+
+
+.video-auther{
+    font-size: 13px;
+    color: rgb(99, 99, 99);
+    margin-bottom: 4px;
+
+}
+.video-stats{
+    font-size: 13px;
+    color: rgb(99, 99, 99);
+
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,
+    minmax(300px,1fr));
+    column-gap: 16px;
+    row-gap: 40px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+
+.video-pecture{
+        margin-bottom: 12px;
+    
+    }
